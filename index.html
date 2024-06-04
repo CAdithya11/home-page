@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri lankan beautiful places</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    
+    <h1>Sri lankan beautiful places</h1>
+    <p id="main">this document can see student only</p>
+    <button type="button" onclick='document.getElementById("main").innerHTML="Sri Lanka was described by Marco Polo as one of the finest islands in the world. Its history dates back thousands of years and – despite being relatively small – it has oodles of nature and beauty to admire. Itching to explore? For the country’s most beautiful sights, this is where to go in Sri Lanka."'>show</button>
+
+    <h1>Time & Date</h1>
+    <p id="time">Click following button to generate the time</p>
+    <button type="button" onclick="document.getElementById('time').innerHTML=Date()">Display Time</button>
+
+    <h1>The light bulb JS Challenge</h1>
+    <p>press turn on to light up the blb and press turn off to switch off</p>
+    <button type="button" style="width:100px" onclick="document.getElementById('bulb').src='3.jpg'">Turn on</button>
+    <img src="2.webp" id="bulb" style="width:100px">
+    <button type="button" onclick="document.getElementById('bulb').src='2.webp'">Turn off</button>
+
+
+</body>
+</html>
